@@ -1,4 +1,4 @@
-package com.mycode.salestaxes;
+package com.lucio.santoro.sales.taxes;
 
 import static org.junit.Assert.*;
 
@@ -6,11 +6,11 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.lucio.santoro.sales.taxes.beans.Basket;
 import org.junit.Test;
 
-import com.mycode.salestaxes.beans.Basket;
-import com.mycode.salestaxes.beans.ProductToTax;
-import com.mycode.salestaxes.beans.Purchased;
+import com.lucio.santoro.sales.taxes.beans.ProductToTax;
+import com.lucio.santoro.sales.taxes.beans.Purchased;
 
 public class BasketPrinterTest {
 	ProductBuilder productBuilder = new ProductBuilder();
@@ -90,7 +90,7 @@ public class BasketPrinterTest {
 		System.out.println("Output 2:\n" + printer.printOutputInvoice(invoice) + "\n");
 		assertEquals(inputStringToCompare, "Input 2:\n" + printer.printInputInvoice(invoice) );
         assertEquals(outputStringToCompare, "Output 2:\n" + printer.printOutputInvoice(invoice)  );
-    	
+
 
 	}
 

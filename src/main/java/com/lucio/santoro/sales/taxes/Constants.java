@@ -1,4 +1,4 @@
-package com.mycode.salestaxes;
+package com.lucio.santoro.sales.taxes;
 
 import java.math.BigDecimal;
 

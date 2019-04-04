@@ -1,4 +1,4 @@
-package com.mycode.salestaxes.beans;
+package com.lucio.santoro.sales.taxes.beans;
 
 
 import static org.junit.Assert.assertFalse;
@@ -8,11 +8,8 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.lucio.santoro.sales.taxes.ProductBuilder;
 import org.junit.Test;
-
-import com.mycode.salestaxes.ProductBuilder;
-
-
 
 
 public class ProductTest {

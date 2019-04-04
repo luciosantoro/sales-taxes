@@ -1,4 +1,4 @@
-package com.mycode.salestaxes.beans;
+package com.lucio.santoro.sales.taxes.beans;
 
 public class CategoryProduct implements Category {
 	private String type;

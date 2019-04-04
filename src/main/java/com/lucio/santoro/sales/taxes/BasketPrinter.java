@@ -1,7 +1,7 @@
-package com.mycode.salestaxes;
+package com.lucio.santoro.sales.taxes;
 
-import com.mycode.salestaxes.beans.Basket;
-import com.mycode.salestaxes.beans.Purchased;
+import com.lucio.santoro.sales.taxes.beans.Basket;
+import com.lucio.santoro.sales.taxes.beans.Purchased;
 
 import java.math.BigDecimal;
 

@@ -1,9 +1,9 @@
-package com.mycode.salestaxes;
+package com.lucio.santoro.sales.taxes;
 
 import java.math.BigDecimal;
 
-import com.mycode.salestaxes.beans.CategoryProduct;
-import com.mycode.salestaxes.beans.Product;
+import com.lucio.santoro.sales.taxes.beans.CategoryProduct;
+import com.lucio.santoro.sales.taxes.beans.Product;
 
 public class ProductBuilder {
 	

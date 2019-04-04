@@ -1,7 +1,6 @@
-package com.mycode.salestaxes.beans;
+package com.lucio.santoro.sales.taxes.beans;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Basket {

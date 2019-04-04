@@ -1,4 +1,4 @@
-package com.mycode.salestaxes.beans;
+package com.lucio.santoro.sales.taxes.beans;
 
 public interface Category {
 

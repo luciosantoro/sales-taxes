@@ -1,13 +1,13 @@
-package com.mycode.salestaxes;
+package com.lucio.santoro.sales.taxes;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.List;
 
-import com.mycode.salestaxes.beans.Basket;
-import com.mycode.salestaxes.beans.MathUtils;
-import com.mycode.salestaxes.beans.ProductToTax;
-import com.mycode.salestaxes.beans.Purchased;
+import com.lucio.santoro.sales.taxes.beans.Basket;
+import com.lucio.santoro.sales.taxes.beans.MathUtils;
+import com.lucio.santoro.sales.taxes.beans.ProductToTax;
+import com.lucio.santoro.sales.taxes.beans.Purchased;
 
 public class CalculateTaxFacade {
 
