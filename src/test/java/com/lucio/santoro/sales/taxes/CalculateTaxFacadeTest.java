@@ -63,6 +63,7 @@ public class CalculateTaxFacadeTest {
 		assertTrue(invoice.getTotal().equals(new BigDecimal("54.65")));
 
 	}
+
 	@Test
 	public void invoicePurfume() {
 
